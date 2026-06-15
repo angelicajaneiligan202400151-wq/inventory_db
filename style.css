@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 20px;
+    background: #ffffff;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* HEADER */
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+/* ADD BUTTON */
+.add-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: 0.2s ease;
+}
+
+.add-btn:hover {
+    background: #45a049;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* HEADER CELLS */
+th {
+    background: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+/* TABLE CELLS */
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+    color: #333;
+}
+
+/* ROW COLORS */
+tr:nth-child(even) {
+    background: #fafafa;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+tr:nth-child(even):hover {
+    background: #f0f0f0;
+}
+
+/* ACTION BUTTONS */
+.edit-btn {
+    color: #2196F3;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.edit-btn:hover {
+    text-decoration: underline;
+}
+
+.delete-btn {
+    color: #f44336;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER COUNT */
+.count {
+    margin-top: 15px;
+    color: #666;
+    font-size: 0.9em;
+}
